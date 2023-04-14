@@ -1,0 +1,30 @@
+.flex-container{
+  display: flex;
+  padding: 20px;
+}
+
+.boton-container{
+  display: flex;
+  flex-direction: column; 
+  padding: 20px;
+  position: relative;
+  bottom: -150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .box {
+    background: linear-gradient(blue,pink);
+    padding: 20px;
+  }
+
+  .animalPhoto{
+    width: 100px;
+    height: 100px;
+
+  }
